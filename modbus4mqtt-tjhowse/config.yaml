@@ -1,0 +1,28 @@
+name: "Modbus4MQTT tjhowse"
+version: "0.7.0"
+slug: "modbus4mqtt-tjhowse"
+description: "Modbus TCP <-> MQTT glue. YAML configuration. Robust."
+arch:
+  - amd64
+  - armv7
+url: "https://github.com/tjhowse/modbus4mqtt"
+startup: "services"
+boot: "auto"
+map:
+  - addon_config
+options:
+  hostname: addon_core_mosquitto
+  port: 1883
+  username: user
+  password: pass
+  mqtt_topic_prefix: modbus4mqtt
+  config: /config/sungrow_sh10rt.yaml
+schema:
+  hostname: str
+  port: int
+  username: str
+  password: str
+  mqtt_topic_prefix: str
+  config: str
+services:
+  - mqtt:need
