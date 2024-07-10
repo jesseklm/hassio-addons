@@ -1,5 +1,5 @@
 name: "SungrowModbus2Mqtt"
-version: "v1.0.0"
+version: "v1.0.1"
 slug: "sungrowmodbus2mqtt"
 description: "Sungrow Modbus 2 MQTT"
 arch:
@@ -10,6 +10,20 @@ startup: "services"
 boot: "auto"
 map:
   - addon_config
+options:
+  mqtt_server: addon_core_mosquitto
+  mqtt_port: 1883
+  mqtt_username: user
+  mqtt_password: pass
+  mqtt_topic: sungrowmodbus2mqtt/
+  ip: 192.168.0.55
+schema:
+  mqtt_server: str
+  mqtt_port: int
+  mqtt_username: str
+  mqtt_password: str
+  mqtt_topic: str
+  ip: str
 image: ghcr.io/jesseklm/sungrowmodbus2mqtt
 services:
   - mqtt:need
