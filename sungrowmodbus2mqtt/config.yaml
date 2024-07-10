@@ -1,0 +1,15 @@
+name: "sungrowmodbus2mqtt"
+version: "1.0.0"
+slug: "sungrowmodbus2mqtt"
+description: "Sungrow Modbus 2 MQTT"
+arch:
+  - amd64
+  - armv7
+url: "https://github.com/jesseklm/sungrowmodbus2mqtt"
+startup: "services"
+boot: "auto"
+map:
+  - addon_config
+image: ghcr.io/jesseklm/sungrowmodbus2mqtt:master
+services:
+  - mqtt:need
