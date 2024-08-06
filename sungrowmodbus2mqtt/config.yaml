@@ -1,5 +1,5 @@
 name: "SungrowModbus2Mqtt"
-version: "v1.0.8"
+version: "v1.0.9"
 slug: "sungrowmodbus2mqtt"
 description: "Sungrow Modbus 2 MQTT"
 arch:
