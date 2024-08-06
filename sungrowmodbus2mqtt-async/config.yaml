@@ -1,0 +1,30 @@
+name: "SungrowModbus2Mqtt-async"
+version: "v1.0.10-dev-async"
+slug: "sungrowmodbus2mqtt-async"
+description: "Sungrow Modbus 2 MQTT async"
+arch:
+  - amd64
+  - aarch64
+  - armv7
+url: "https://github.com/jesseklm/sungrowmodbus2mqtt"
+startup: "services"
+boot: "auto"
+map:
+  - addon_config
+options:
+  mqtt_server: addon_core_mosquitto
+  mqtt_port: 1883
+  mqtt_username: user
+  mqtt_password: pass
+  mqtt_topic: sungrowmodbus2mqtt/
+  ip: 192.168.0.55
+schema:
+  mqtt_server: str
+  mqtt_port: int
+  mqtt_username: str
+  mqtt_password: str
+  mqtt_topic: str
+  ip: str
+image: ghcr.io/jesseklm/sungrowmodbus2mqtt
+services:
+  - mqtt:need
