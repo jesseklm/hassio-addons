@@ -19,7 +19,6 @@ options:
   mqtt_topic: sungrowmodbus2mqtt/
   ip: 192.168.0.55
   sungrow_encrypted: false
-  logging: info
 schema:
   mqtt_server: str
   mqtt_port: int
@@ -28,7 +27,7 @@ schema:
   mqtt_topic: str
   ip: str
   sungrow_encrypted: bool
-  logging: list(debug|info|warning|error|critical)
+  logging: list(debug|info|warning|error|critical)?
 image: ghcr.io/jesseklm/sungrowmodbus2mqtt
 services:
   - mqtt:need
