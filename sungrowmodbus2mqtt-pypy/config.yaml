@@ -28,7 +28,7 @@ schema:
   mqtt_topic: str
   ip: str
   sungrow_encrypted: bool
-  logging: list(debug|info|warning|error|critical)?
+  logging: list(debug|info|warning|error|critical)
 image: ghcr.io/jesseklm/sungrowmodbus2mqtt
 services:
   - mqtt:need
