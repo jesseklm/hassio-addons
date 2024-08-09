@@ -1,5 +1,5 @@
 name: "SungrowModbus2Mqtt-PyPy"
-version: "v1.0.18-pypy"
+version: "v1.0.19-pypy"
 slug: "sungrowmodbus2mqtt-pypy"
 description: "Sungrow Modbus 2 MQTT with PyPy"
 arch:
