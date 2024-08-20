@@ -1,0 +1,30 @@
+name: "Json2Mqtt"
+version: "1.0.0"
+slug: "json2mqtt"
+description: "JSON 2 MQTT"
+arch:
+  - amd64
+  - aarch64
+  - armv7
+url: "https://github.com/jesseklm/json2mqtt"
+startup: "services"
+boot: "auto"
+map:
+  - addon_config
+options:
+  mqtt_server: addon_core_mosquitto
+  mqtt_port: 1883
+  mqtt_username: user
+  mqtt_password: pass
+  mqtt_topic: json2mqtt/
+  logging: info
+schema:
+  mqtt_server: str
+  mqtt_port: int
+  mqtt_username: str
+  mqtt_password: str
+  mqtt_topic: str
+  logging: list(debug|info|warning|error|critical)
+image: ghcr.io/jesseklm/json2mqtt
+services:
+  - mqtt:need
