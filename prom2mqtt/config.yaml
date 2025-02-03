@@ -1,0 +1,16 @@
+name: "Prom2MQTT"
+version: "0.0.1"
+slug: "prom2mqtt"
+description: "Bridge Prometheus metrics to MQTT for IoT and smart home integration. Configure scrapers, filter metrics, and publish to MQTT brokers with ease."
+arch:
+  - amd64
+  - aarch64
+  - armv7
+url: "https://github.com/jesseklm/prom2mqtt"
+startup: "services"
+boot: "auto"
+map:
+  - addon_config
+image: ghcr.io/jesseklm/prom2mqtt
+services:
+  - mqtt:need
