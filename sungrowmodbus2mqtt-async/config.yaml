@@ -1,5 +1,5 @@
 name: "SungrowModbus2Mqtt-async"
-version: "v1.0.10-dev-async"
+version: "1.0.24-dev-async"
 slug: "sungrowmodbus2mqtt-async"
 description: "Sungrow Modbus 2 MQTT async"
 arch:
@@ -18,6 +18,7 @@ options:
   mqtt_password: pass
   mqtt_topic: sungrowmodbus2mqtt/
   ip: 192.168.0.55
+  logging: info
 schema:
   mqtt_server: str
   mqtt_port: int
@@ -25,6 +26,7 @@ schema:
   mqtt_password: str
   mqtt_topic: str
   ip: str
+  logging: list(debug|info|warning|error|critical)
 image: ghcr.io/jesseklm/sungrowmodbus2mqtt
 services:
   - mqtt:need
