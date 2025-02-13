@@ -1,5 +1,5 @@
 name: "Prom2MQTT"
-version: "0.0.8"
+version: "0.0.9"
 slug: "prom2mqtt"
 description: "Bridge Prometheus metrics to MQTT for IoT and smart home integration. Configure scrapers, filter metrics, and publish to MQTT brokers with ease."
 arch:
