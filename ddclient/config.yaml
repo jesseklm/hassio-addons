@@ -1,0 +1,13 @@
+version: v4.0.0-ls190
+slug: ddclient
+name: ddclient
+description: ddclient updates dynamic DNS entries for accounts on a wide range of dynamic DNS services.
+url: https://github.com/linuxserver/docker-ddclient
+arch:
+  - amd64
+  - aarch64
+host_network: true
+image: lscr.io/linuxserver/ddclient
+startup: system
+map:
+  - addon_config

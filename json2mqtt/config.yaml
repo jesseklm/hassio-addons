@@ -1,14 +1,12 @@
-name: "Json2Mqtt"
-version: "1.0.3"
-slug: "json2mqtt"
-description: "JSON 2 MQTT"
+name: Json2Mqtt
+version: 1.0.3
+slug: json2mqtt
+description: JSON 2 MQTT
 arch:
   - amd64
   - aarch64
   - armv7
-url: "https://github.com/jesseklm/json2mqtt"
-startup: "services"
-boot: "auto"
+url: https://github.com/jesseklm/json2mqtt
 map:
   - addon_config
 options:

@@ -1,13 +1,12 @@
-name: "Mosquitto"
-version: "2.0.18"
-slug: "mosquitto"
-description: "Eclipse Mosquitto is an open source message broker which implements MQTT"
+name: Mosquitto
+version: 2.0.20
+slug: mosquitto
+description: Eclipse Mosquitto is an open source message broker which implements MQTT
 arch:
   - amd64
   - aarch64
   - armv7
-url: "https://github.com/docker-library/official-images/blob/master/library/eclipse-mosquitto"
-startup: "services"
-boot: "auto"
+url: https://github.com/docker-library/official-images/blob/master/library/eclipse-mosquitto
+startup: services
 map:
   - addon_config

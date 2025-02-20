@@ -1,14 +1,12 @@
-name: "SungrowModbus2Mqtt-async"
-version: "1.0.27-dev-async"
-slug: "sungrowmodbus2mqtt-async"
-description: "Sungrow Modbus 2 MQTT async"
+name: SungrowModbus2Mqtt-async
+version: 1.0.27-dev-async
+slug: sungrowmodbus2mqtt-async
+description: Sungrow Modbus 2 MQTT async
 arch:
   - amd64
   - aarch64
   - armv7
-url: "https://github.com/jesseklm/sungrowmodbus2mqtt"
-startup: "services"
-boot: "auto"
+url: https://github.com/jesseklm/sungrowmodbus2mqtt
 map:
   - addon_config
 options:

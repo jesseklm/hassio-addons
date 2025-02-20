@@ -1,14 +1,12 @@
-name: "SungrowModbus2Mqtt-PyPy"
-version: "v1.0.21-pypy"
-slug: "sungrowmodbus2mqtt-pypy"
-description: "Sungrow Modbus 2 MQTT with PyPy"
+name: SungrowModbus2Mqtt-PyPy
+version: v1.0.21-pypy
+slug: sungrowmodbus2mqtt-pypy
+description: Sungrow Modbus 2 MQTT with PyPy
 arch:
   - amd64
   - aarch64
   - armv7
-url: "https://github.com/jesseklm/sungrowmodbus2mqtt"
-startup: "services"
-boot: "auto"
+url: https://github.com/jesseklm/sungrowmodbus2mqtt
 map:
   - addon_config
 options:
