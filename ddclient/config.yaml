@@ -11,4 +11,4 @@ image: lscr.io/linuxserver/ddclient
 init: false
 startup: system
 map:
-  - addon_config
+  - addon_config:rw
