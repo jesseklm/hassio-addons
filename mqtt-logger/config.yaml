@@ -1,0 +1,14 @@
+name: MQTT-Logger
+version: 0.0.1
+slug: mqtt-logger
+description: Log MQTT Messages.
+arch:
+  - amd64
+  - aarch64
+  - armv7
+url: https://github.com/jesseklm/mqtt-logger
+map:
+  - addon_config
+image: ghcr.io/jesseklm/mqtt-logger
+services:
+  - mqtt:need
