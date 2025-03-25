@@ -1,4 +1,4 @@
-version: v4.0.0-ls190
+version: v4.0.0-ls193
 slug: ddclient
 name: ddclient
 description: ddclient updates dynamic DNS entries for accounts on a wide range of dynamic DNS services.
