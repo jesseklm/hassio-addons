@@ -23,6 +23,6 @@ schema:
   mqtt_password: str
   mqtt_topic: str
   logging: list(debug|info|warning|error|critical)
-image: ghcr.io/jesseklm/json2mqtt
+image: ghcr.io/jesseklm/cell-balance-analyser
 services:
   - mqtt:need
