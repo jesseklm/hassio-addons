@@ -1,5 +1,5 @@
 name: cell-balance-analyser
-version: 0.0.2
+version: 0.0.4
 slug: cell-balance-analyser
 description: Save cell balancing times
 arch:
@@ -15,6 +15,7 @@ options:
   mqtt_username: user
   mqtt_password: pass
   mqtt_topic: cell-balance-analyser/
+  victoriametrics_prom_import_url: http://localhost:8428/api/v1/import/prometheus
   logging: info
 schema:
   mqtt_server: str
@@ -22,6 +23,7 @@ schema:
   mqtt_username: str
   mqtt_password: str
   mqtt_topic: str
+  victoriametrics_prom_import_url: str
   logging: list(debug|info|warning|error|critical)
 image: ghcr.io/jesseklm/cell-balance-analyser
 services:
