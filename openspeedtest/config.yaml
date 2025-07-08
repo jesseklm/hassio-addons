@@ -7,7 +7,7 @@ arch:
   - aarch64
   - armv7
 url: https://github.com/openspeedtest/Speed-Test
-image: openspeedtest
+image: openspeedtest/latest
 webui: http://[HOST]:[PORT:3000]/
 startup: services
 ports:
