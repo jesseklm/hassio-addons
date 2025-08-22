@@ -1,5 +1,5 @@
 name: SungrowModbus2Mqtt-async
-version: 1.0.32-dev-async
+version: 1.0.33-dev-async
 slug: sungrowmodbus2mqtt-async
 description: Sungrow Modbus 2 MQTT async
 arch:
