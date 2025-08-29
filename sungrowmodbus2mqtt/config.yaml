@@ -1,5 +1,5 @@
 name: SungrowModbus2Mqtt
-version: 1.0.24
+version: 1.0.25
 slug: sungrowmodbus2mqtt
 description: Sungrow Modbus 2 MQTT
 arch:
