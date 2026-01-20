@@ -1,10 +1,11 @@
 name: Json2Mqtt
-version: 1.0.15
+version: 1.0.16
 slug: json2mqtt
 description: JSON 2 MQTT
 arch:
   - amd64
   - aarch64
+  - armv7
 url: https://github.com/jesseklm/json2mqtt
 map:
   - addon_config
