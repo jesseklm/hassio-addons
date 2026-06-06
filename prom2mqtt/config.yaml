@@ -5,7 +5,6 @@ description: Bridge Prometheus metrics to MQTT for IoT and smart home integratio
 arch:
   - amd64
   - aarch64
-  - armv7
 url: https://github.com/jesseklm/prom2mqtt
 map:
   - addon_config

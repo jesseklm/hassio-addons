@@ -5,7 +5,6 @@ description: Save cell balancing times
 arch:
   - amd64
   - aarch64
-  - armv7
 url: https://github.com/jesseklm/cell-balance-analyser
 map:
   - addon_config

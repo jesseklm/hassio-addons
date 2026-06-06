@@ -5,7 +5,6 @@ description: "Modbus TCP <-> MQTT glue. YAML configuration. Robust."
 arch:
   - amd64
   - aarch64
-  - armv7
 url: "https://github.com/tjhowse/modbus4mqtt"
 startup: "services"
 boot: "auto"

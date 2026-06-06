@@ -5,7 +5,6 @@ description: SpeedTest by OpenSpeedTest™ - Free & Open-Source HTML5 Network Pe
 arch:
   - amd64
   - aarch64
-  - armv7
 url: https://github.com/openspeedtest/Speed-Test
 image: openspeedtest/latest
 webui: http://[HOST]:[PORT:3000]/

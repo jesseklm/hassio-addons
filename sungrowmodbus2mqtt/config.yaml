@@ -5,7 +5,6 @@ description: Sungrow Modbus 2 MQTT
 arch:
   - amd64
   - aarch64
-  - armv7
 url: https://github.com/jesseklm/sungrowmodbus2mqtt
 map:
   - addon_config

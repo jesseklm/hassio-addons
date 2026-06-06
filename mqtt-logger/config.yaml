@@ -5,7 +5,6 @@ description: Log MQTT Messages.
 arch:
   - amd64
   - aarch64
-  - armv7
 url: https://github.com/jesseklm/mqtt-logger
 map:
   - addon_config

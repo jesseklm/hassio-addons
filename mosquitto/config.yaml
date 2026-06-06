@@ -5,7 +5,6 @@ description: Eclipse Mosquitto is an open source message broker which implements
 arch:
   - amd64
   - aarch64
-  - armv7
 url: https://github.com/docker-library/official-images/blob/master/library/eclipse-mosquitto
 startup: services
 map:
