@@ -6,7 +6,7 @@ arch:
   - amd64
   - aarch64
 url: https://github.com/openspeedtest/Speed-Test
-image: openspeedtest/latest
+image: openspeedtest/v2.0.6
 webui: http://[HOST]:[PORT:3000]/
 startup: services
 ports:
