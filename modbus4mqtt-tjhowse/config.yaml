@@ -11,7 +11,7 @@ boot: "auto"
 map:
   - addon_config
 options:
-  hostname: addon_core_mosquitto
+  hostname: core-mosquitto
   port: 1883
   username: user
   password: pass

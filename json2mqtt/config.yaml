@@ -9,7 +9,7 @@ url: https://github.com/jesseklm/json2mqtt
 map:
   - addon_config
 options:
-  mqtt_server: addon_core_mosquitto
+  mqtt_server: core-mosquitto
   mqtt_port: 1883
   mqtt_username: user
   mqtt_password: pass
