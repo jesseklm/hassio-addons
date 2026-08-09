@@ -17,5 +17,6 @@ panel_admin: true
 host_network: true
 privileged:
   - NET_RAW
+  - NET_ADMIN
 environment:
   HOME_ASSISTANT_INGRESS: "true"
