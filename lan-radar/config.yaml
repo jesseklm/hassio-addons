@@ -1,5 +1,5 @@
 name: LAN Radar
-version: 0.0.5
+version: 0.0.6
 slug: lan-radar
 description: Discover and identify devices on the local network.
 arch:
@@ -10,7 +10,7 @@ image: ghcr.io/jesseklm/lan-radar
 startup: application
 boot: auto
 ingress: true
-ingress_port: 8099
+ingress_port: 0
 panel_icon: mdi:radar
 panel_title: LAN Radar
 panel_admin: true
