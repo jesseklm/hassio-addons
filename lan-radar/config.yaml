@@ -1,5 +1,5 @@
 name: LAN Radar
-version: 0.0.3
+version: 0.0.4
 slug: lan-radar
 description: Discover and identify devices on the local network.
 arch:
@@ -17,6 +17,5 @@ panel_admin: true
 host_network: true
 privileged:
   - NET_RAW
-  - NET_ADMIN
 environment:
   HOME_ASSISTANT_INGRESS: "true"
