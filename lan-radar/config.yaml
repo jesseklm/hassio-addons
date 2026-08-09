@@ -1,5 +1,5 @@
 name: LAN Radar
-version: 0.0.4
+version: 0.0.5
 slug: lan-radar
 description: Discover and identify devices on the local network.
 arch:
