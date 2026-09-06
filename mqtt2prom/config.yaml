@@ -1,0 +1,22 @@
+name: MQTT2Prom
+version: 0.0.7
+slug: mqtt2prom
+description: Bridge MQTT messages to Prometheus metrics for monitoring and visualization.
+arch:
+  - amd64
+  - aarch64
+url: https://github.com/jesseklm/mqtt2prom
+image: ghcr.io/jesseklm/mqtt2prom
+legacy: true
+map:
+  - addon_config
+options:
+  prom_import_url: "http://1bd4a9fb-victoria-metrics:8428/api/v1/import/prometheus"
+  logging: info
+schema:
+  prom_import_url: str
+  logging: list(debug|info|warning|error|critical)
+services:
+  - mqtt:need
+environment:
+  USE_HOME_ASSISTANT_MQTT: "true"
