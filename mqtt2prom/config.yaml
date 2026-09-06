@@ -1,5 +1,5 @@
 name: MQTT2Prom
-version: 0.0.7
+version: 0.0.8
 slug: mqtt2prom
 description: Bridge MQTT messages to Prometheus metrics for monitoring and visualization.
 arch:
