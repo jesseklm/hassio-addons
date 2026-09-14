@@ -1,0 +1,29 @@
+name: fritz2mqtt
+version: 0.0.3
+slug: fritz2mqtt
+description: fritz2mqtt
+arch:
+  - amd64
+url: https://github.com/jesseklm/fritz2mqtt
+image: ghcr.io/jesseklm/fritz2mqtt
+legacy: true
+options:
+  update_rate: 60
+  fritz_address: 192.168.178.1
+  fritz_user: null
+  fritz_password: null
+  fritz_timeout: 10.0
+  mqtt_topic: fritz2mqtt
+  logging: info
+schema:
+  update_rate: int
+  fritz_address: str
+  fritz_user: str
+  fritz_password: password
+  fritz_timeout: float
+  mqtt_topic: str
+  logging: list(debug|info|warning|error|critical)
+services:
+  - mqtt:need
+environment:
+  USE_HOME_ASSISTANT_MQTT: "true"
