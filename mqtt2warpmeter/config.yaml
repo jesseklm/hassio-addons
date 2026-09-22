@@ -1,0 +1,20 @@
+name: mqtt2warpmeter
+version: 0.0.1
+slug: mqtt2warpmeter
+description: mqtt2warpmeter
+arch:
+  - amd64
+  - aarch64
+url: https://github.com/jesseklm/mqtt2warpmeter
+image: ghcr.io/jesseklm/mqtt2warpmeter
+legacy: true
+options:
+  mqtt_topic: mqtt2warpmeter
+  logging: info
+schema:
+  mqtt_topic: str
+  logging: list(debug|info|warning|error|critical)
+services:
+  - mqtt:need
+environment:
+  USE_HOME_ASSISTANT_MQTT: "true"

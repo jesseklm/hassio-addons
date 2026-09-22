@@ -4,6 +4,7 @@ slug: fritz2mqtt
 description: fritz2mqtt
 arch:
   - amd64
+  - aarch64
 url: https://github.com/jesseklm/fritz2mqtt
 image: ghcr.io/jesseklm/fritz2mqtt
 legacy: true
