@@ -8,6 +8,8 @@ arch:
 url: https://github.com/jesseklm/mqtt2warpmeter
 image: ghcr.io/jesseklm/mqtt2warpmeter
 legacy: true
+map:
+  - addon_config
 options:
   mqtt_topic: mqtt2warpmeter
   logging: info
