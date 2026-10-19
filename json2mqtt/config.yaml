@@ -1,5 +1,5 @@
 name: Json2Mqtt
-version: 1.0.20
+version: 1.0.21
 slug: json2mqtt
 description: JSON 2 MQTT
 arch:
